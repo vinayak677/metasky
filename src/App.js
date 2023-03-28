@@ -7,10 +7,20 @@ import Fourth from './Pages/Fourth';
 import Five from './Pages/Five';
 import Six from './Pages/Six';
 import Seven from './Pages/Seven';
+import { useState } from 'react';
+import Loader from './Pages/Loader';
 
 function App() {
+  const[loading,setLoading]=useState(true);
+
+  setTimeout(function(){
+    setLoading(false)
+ }, 2500);
+ 
   return (
+
     <div>
+      {loading ? <Loader/>: <>
      <First/>
      <Second/>
      <Third/>
@@ -18,6 +28,7 @@ function App() {
      <Five/>
      <Six/>
      <Seven/>
+     </>}
     </div>
   );
 }

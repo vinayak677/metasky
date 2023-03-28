@@ -5,7 +5,7 @@ const Third = () => {
     <div className='container-fluid bg_third '>
         <p className=' tanu'>TANUKIBLES</p>
         <p className='play'>PLAY TO EARN GAME</p>
-        <p className='Tanuki'>9999 Tanuki NFTs up for grabs</p>
+        <p className='Tanuki'>9999 TANUKI NFTs UP FOR GRABS</p>
         <div className='maskImage '>
 
         <img className='h700' src='../../images/Mask Group_2.png' />

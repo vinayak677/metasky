@@ -32,7 +32,7 @@ const Second = () => {
 
         <div className='col-6 bg_black'>
         <img className='logo1 white' src='../../images/Group 107.png' />
-        <p className='cryto_text white'>Your Every<br/>Crypto Wallet</p>
+        <p className='cryto_text white'>Exclusive,For You And<br/>Your Community</p>
         <div className='dollor5 bg_5 boxes'>
         <img className='' src='../../images/Vector_198.png' />
         <p className='mt-27'>Chat, play<br/>games, and <br/>host events</p>
