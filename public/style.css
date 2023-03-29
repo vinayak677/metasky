@@ -1,8 +1,10 @@
-
-/* .sky{
-    margin-top: 1250px;
-    margin-left: 200px;
-} */
+@font-face {
+    font-family: 'Georama';
+    src: url('./fonts/GothamMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+    
 .bg_yellow{
 background-color: #FFD318;
 width: 955px;
@@ -29,6 +31,7 @@ background-color: #FFD318;
     margin-top: 178px;
     display: flex;
     position: absolute;
+    font-family: 'Georama', sans-serif;
 }
 .roundImage{
     display: flex;
@@ -80,6 +83,7 @@ background-color: #FFD318;
     font-size: 64px;
     line-height: 64.5px;
     position: absolute;
+    font-family: 'Georama', sans-serif;
 }
 .rounds{
     color: #C4C4C4;
@@ -124,6 +128,7 @@ background-color: #FFD318;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    font-family: 'Georama', sans-serif;
 }
 .boxes{
     width:185px;
@@ -189,6 +194,7 @@ background-color: #FFD318;
     padding-top: 200px;
     display: flex;
     justify-content: center;
+    font-family: 'Georama', sans-serif;
 }
 .play{
     color: white;
@@ -197,6 +203,7 @@ background-color: #FFD318;
     line-height: 66px;
     display: flex;
     justify-content: center;
+    font-family: 'Georama', sans-serif;
 }
 .Tanuki{
   color:#FFD318;
@@ -205,6 +212,7 @@ background-color: #FFD318;
   line-height: 65px;
   display: flex;
   justify-content: center;
+  font-family: 'Georama', sans-serif;
 }
 .maskImage{
     display: flex;
@@ -220,9 +228,15 @@ background-color: #FFD318;
     font-weight: 700;
     line-height: 50px;
     margin-left: 220px;
+    font-family: 'Georama', sans-serif;
 }
 .Decentralised{
     margin-left: 220px;
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 113.2%;
 }
 .web3{
     line-height: 310px;
@@ -279,6 +293,7 @@ background-color: #FFD318;
     line-height: 64px;
 position: absolute;
 padding-top: 100px;
+font-family: 'Georama', sans-serif;
 
 }
 .rectangle1 ,.rectangle2, .rectangle3{
@@ -363,6 +378,7 @@ padding-top: 100px;
     margin-top: 14rem;
     font-weight: 700;
     font-size: 36px;
+    font-family: 'Georama', sans-serif;
 }
 
 .invst2{
@@ -373,10 +389,11 @@ padding-top: 100px;
     font-weight: 700;
     font-size: 36px;
     margin-right: 600px;
+    font-family: 'Georama', sans-serif;
 }
 .invst3{
     margin-left: 600px;
-
+    font-family: 'Georama', sans-serif;
     display: flex;
     position: absolute;
     justify-content: center;
@@ -432,6 +449,7 @@ padding-top: 100px;
     padding-top: 3rem;
     padding-left: 5rem;
     padding-bottom: 1rem;
+    font-family: 'Georama', sans-serif;
 }
 .black{
     background-color: #222020;
